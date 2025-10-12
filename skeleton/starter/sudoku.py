@@ -38,6 +38,67 @@ class CSP(object):
 
         print(self.domain)
 
+    def getRow(self, inputCell):
+        inputRow = inputCell[0]
+        inputCol = inputCell[1]
+
+        cols = set(range(1,10)).remove(inputCol)
+
+        row = {}
+        rowKeys = set()
+        for col in cols:
+            row[f"{inputRow}{col}"] = self.domain[f"{inputRow}{col}"]
+            rowKeys.add(f"{row}{inputCol}")
+
+        return row, rowKeys
+
+    def getCol(self, inputCell):
+        inputRow = inputCell[0]
+        inputCol = inputCell[1]
+
+        rows = set(chr(i) for i in range(65, 74)).remove(inputRow)
+
+        col = {}
+        colKeys = set()
+        for row in rows:
+            col[f"{row}{inputCol}"] = self.domain[f"{row}{inputCol}"]
+            colKeys.add(f"{row}{inputCol}")
+
+        return col, colKeys
+
+    def getSquare(self, inputCell):
+        inputRow = inputCell[0]
+        inputCol = inputCell[1]
+
+        cols = []
+        if int(inputCol) <= 3:
+            cols = ['1', '2', '3']
+        elif int(inputCol) >= 7:
+            cols = ['7', '8', '9']
+        else:
+            cols = ['4', '5', '6']
+
+        rows = []
+        if ord(inputRow) - 64 <= 3:
+            rows = ['A', 'B', 'C']
+        elif ord(inputRow) - 64 >= 7:
+            rows = ['G', 'H', 'I']
+        else:
+            rows = ['D', 'E', 'F']
+
+        square = {}
+        squarekeys = set()
+        for row in rows:
+            for col in cols:
+                cell = f"{row}{col}"
+
+                if cell == inputCell:
+                    pass
+                else:
+                    square[cell] = self.domain[cell]
+                    squarekeys.add(cell)
+
+
 def backtracking(board):
     """Takes a board and returns solved board."""
     # TODO: implement this
