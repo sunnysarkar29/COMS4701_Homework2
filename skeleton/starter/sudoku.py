@@ -31,26 +31,57 @@ def board_to_string(board):
     return ''.join(ordered_vals)
 
 
+class CSP(object):
+    def __init__(self, board):
+        self.board = board
+        self.domain = {key : [value] if value != 0 else list(range(1,10)) for key, value in board.items()}
+
+        print(self.domain)
+
 def backtracking(board):
     """Takes a board and returns solved board."""
     # TODO: implement this
+
+    print(board)
+
+    # backtracking_recursive({}, board)
     solved_board = board
     return solved_board
+
+def generateCSP(board):
+    csp = {}
+    csp.board
+    return csp
+
+def backtracking_recursive(assignment, board):
+
+    return False
+
+def checkComplete(assignment):
+    return False
+
+def minimumRemainingValueHeuristic(csp):
+    return idx
+
+def forwardChecking(csp):
+    return False
+
 
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         if len(sys.argv[1]) < 9:
+            print(sys.argv[1])
             print("Input string too short")
             exit()
 
         print(sys.argv[1])
         # Parse boards to dict representation, scanning board L to R, Up to Down
         board = { ROW[r] + COL[c]: int(sys.argv[1][9*r+c])
-                  for r in range(9) for c in range(9)}       
-        
+                  for r in range(9) for c in range(9)}
+
         solved_board = backtracking(board)
-        
+
         # Write board to file
         out_filename = 'output.txt'
         outfile = open(out_filename, "w")
@@ -58,5 +89,5 @@ if __name__ == '__main__':
         outfile.write('\n')
     else:
         print("Usage: python3 sudoku.py <input string>")
-    
+
     print("Finishing all boards in file.")
