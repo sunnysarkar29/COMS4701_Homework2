@@ -11,6 +11,7 @@ import heapq
 
 ROW = "ABCDEFGHI"
 COL = "123456789"
+cycleCounter = 1
 
 _counter = 1
 _boardIdx = {}
@@ -19,7 +20,6 @@ for _row in ROW:
         key = f"{_row}{_col}"
         _boardIdx[key] = _counter
         _counter += 1
-
 
 
 
@@ -43,47 +43,66 @@ def board_to_string(board):
 
 
 class CSP(object):
-    def __init__(self, board, _domain=None, _MRVHeap=None):
+    def __init__(self, board, _domain=None, _domainLen=None, _MRVHeap=None, _assignment=None):
         self.board = board
         self.boardIdx = _boardIdx
+        self.domain = {}
+        self.domainLen = {}
+        self.MRVHeap = []
+        self.assignment = {}
 
         if _domain is None:
-            self.domain = {}
-            self.domainLen = {}
-            self.MRVHeap = []
-            self.assignment = {}
-
             initialized = set()
 
             counter = 1
             for row in ROW:
                 for col in COL:
-                    key = f"{_row}{_col}"
+                    key = f"{row}{col}"
                     value = self.board[key]
-                    _domain, _domainLen = (set(value), 1) if value != 0 else (set(range(1,10)), 9)
+                    _domain, _domainLen = (set([value]), 1) if value != 0 else (set(range(1,10)), 9)
                     if _domainLen == 1:
                         self.assignment[key] = value
+                    else:
+                        heapq.heappush(self.MRVHeap, ( _domainLen, counter, key))
 
                     self.domain[key] = _domain
                     self.domainLen[key] = _domainLen
-                    self.forwardChecking(key)
 
                     counter += 1
-        else:
-            self.domain = _domain
-            self.MRVHeap = _MRVHeap
 
-        print(self.board)
-        print(self.domain)
-        print(self.connections)
+            print(self.MRVHeap)
+            for key in self.assignment.keys():
+                self.forwardChecking(key)
+        else:
+            if None in [_domain, _domainLen, _MRVHeap, _assignment]:
+                raise ValueError("Either provide all or none of _domain, _domainLen, _MRVHeap, _assignment")
+            self.domain     = _domain
+            self.domainLen  = _domainLen
+            self.MRVHeap    = _MRVHeap
+            self.assignment = _assignment
+
+        # print("\n\n\nInitial Heap")
+        # print(self.MRVHeap)
 
     def assignNode(self, key, value):
-        newCspInstance = CSP(self.board.copy(), self.domain.copy(), self.MRVHeap.copy())
+        newBoard, newDomain, newDomainLen, newMRVHeap, newAssignment = (self.board.copy(), self.domain.copy(), self.domainLen.copy(), self.MRVHeap.copy(), self.assignment.copy())
 
-        newCspInstance.board[key] = value
-        newCspInstance.assignment[key] = value
-        newCspInstance.domain[key] = set(value)
-        newCspInstance.domainLen[key] = 1
+        newBoard[key] = value
+        newAssignment[key] = value
+        newDomain[key] = set([value])
+        newDomainLen[key] = 1
+        heapq.heappush(newMRVHeap, (1, self.boardIdx[key], key))
+
+        print("AAAAAAAA")
+        print(self.domainLen)
+        print("BBBBBBBBBBB")
+        print(newDomainLen)
+
+        newCspInstance = CSP(newBoard, newDomain, newDomainLen, newMRVHeap, newAssignment)
+        
+        print("BBBBBBBBBBB")
+        print(newCspInstance.domainLen)
+
         forwardCheckResult = newCspInstance.forwardChecking(key)
 
         return newCspInstance if forwardCheckResult else False
@@ -91,10 +110,19 @@ class CSP(object):
     def forwardChecking(self, key):
         connectionHeap = self.getConnectionsHeap(key)
 
+        print("Connection Heap for ", key)
+        print(connectionHeap)
+        print("Domain before FC")
+        print(self.domain)
+        print("Domain Len before FC")
+        print(self.domainLen)
+
+
         while connectionHeap:
             _, _, connectionKey = heapq.heappop(connectionHeap)
             
             if self.board[key] in self.domain[connectionKey]:
+                print(f"Forward Checking {key} -> {connectionKey} removing {self.board[key]}")
                 self.domainLen[connectionKey] -= 1
                 if self.domainLen[connectionKey] == 0:
                     return False
@@ -113,17 +141,17 @@ class CSP(object):
         inputCol = inputCell[1]
 
         # Get Row Connections
-        cols = set(range(1,10)).remove(inputCol)
+        cols = set(range(1,10))
+        cols.remove(int(inputCol))
 
-        row = {}
         for col in cols:
             heapq.heappush(connectionHeap, (len(self.domain[f"{inputRow}{col}"]), self.boardIdx[f"{inputRow}{col}"], f"{inputRow}{col}"))
 
 
         # Get Col Connections
-        rows = set(chr(i) for i in range(65, 74)).remove(inputRow)
+        rows = set(chr(i) for i in range(65, 74))
+        rows.remove(inputRow)
 
-        col = {}
         for row in rows:
             heapq.heappush(connectionHeap, (len(self.domain[f"{row}{inputCol}"]), self.boardIdx[f"{row}{inputCol}"], f"{row}{inputCol}"))
 
@@ -144,8 +172,6 @@ class CSP(object):
         else:
             rows = ['D', 'E', 'F']
 
-        square = {}
-        squarekeys = set()
         for row in rows:
             for col in cols:
                 cell = f"{row}{col}"
@@ -173,11 +199,19 @@ class CSP(object):
 def backtracking(board):
     """Takes a board and returns solved board."""
     # TODO: implement this
+
     csp = CSP(board)
 
-    return backtracking_recursive(csp)
+
+    retval = backtracking_recursive(csp)
+
+    return retval
 
 def backtracking_recursive(csp):
+    global cycleCounter
+    print(f"\n\nCurrent Board {cycleCounter}: ")
+    cycleCounter += 1
+    print(csp.board)
     if checkComplete(csp.assignment):
         return csp.board
     
@@ -186,17 +220,13 @@ def backtracking_recursive(csp):
             domainLen, _, key = heapq.heappop(csp.MRVHeap)
 
             if key not in csp.assignment and csp.domainLen[key] == domainLen:
-                break
+                for value in csp.domain[key]:
+                    newCsp = csp.assignNode(key, value)
 
-        for value in csp.domain[key]:
-            newCsp = csp.assignNode(key, value)
-
-            if newCsp is not False:
-                result = backtracking_recursive(newCsp)
-                if result is not False:
-                    return result
-            else:
-                return False
+                    if newCsp is not False:
+                        result = backtracking_recursive(newCsp)
+                        if result is not False:
+                            return result
     return False
 
 def checkComplete(assignment):
