@@ -43,11 +43,12 @@ def board_to_string(board):
 
 
 class CSP(object):
-    def __init__(self, board, _domain=None, _domainLen=None, _MRVHeap=None, _assignment=None):
+    def __init__(self, board, _domain=None, _domainLen=None, _assignment=None, _unassignedDomainLen=None):
         self.board = board
         self.boardIdx = _boardIdx
         self.domain = {}
         self.domainLen = {}
+        self.unassignedDomainLen = {}
         self.MRVHeap = []
         self.assignment = {}
 
@@ -63,45 +64,40 @@ class CSP(object):
                     if _domainLen == 1:
                         self.assignment[key] = value
                     else:
-                        heapq.heappush(self.MRVHeap, ( _domainLen, counter, key))
+                        self.unassignedDomainLen[key] = _domainLen
 
                     self.domain[key] = _domain
                     self.domainLen[key] = _domainLen
 
                     counter += 1
 
-            print(self.MRVHeap)
             for key in self.assignment.keys():
                 self.forwardChecking(key)
         else:
-            if None in [_domain, _domainLen, _MRVHeap, _assignment]:
+            print("Using provided domain, domainLen, MRVHeap, assignment")
+            # import pdb; pdb.set_trace()
+            if None in [_domain, _domainLen, _assignment, _unassignedDomainLen]:
                 raise ValueError("Either provide all or none of _domain, _domainLen, _MRVHeap, _assignment")
-            self.domain     = _domain
-            self.domainLen  = _domainLen
-            self.MRVHeap    = _MRVHeap
-            self.assignment = _assignment
+            self.domain              = _domain
+            self.domainLen           = _domainLen
+            self.assignment          = _assignment
+            self.unassignedDomainLen = _unassignedDomainLen
 
-        # print("\n\n\nInitial Heap")
-        # print(self.MRVHeap)
 
     def assignNode(self, key, value):
-        newBoard, newDomain, newDomainLen, newMRVHeap, newAssignment = (self.board.copy(), self.domain.copy(), self.domainLen.copy(), self.MRVHeap.copy(), self.assignment.copy())
+        # if key == 'A3' and value == 8:
+        #     import pdb; pdb.set_trace()
+        newBoard, newDomain, newDomainLen, newAssignment, newUnassignedDomainLen = (self.board.copy(), self.domain.copy(), self.domainLen.copy(), self.assignment.copy(), self.unassignedDomainLen.copy())
 
         newBoard[key] = value
         newAssignment[key] = value
         newDomain[key] = set([value])
         newDomainLen[key] = 1
-        heapq.heappush(newMRVHeap, (1, self.boardIdx[key], key))
+        newUnassignedDomainLen.pop(key, None)
 
-        print("AAAAAAAA")
-        print(self.domainLen)
-        print("BBBBBBBBBBB")
-        print(newDomainLen)
-
-        newCspInstance = CSP(newBoard, newDomain, newDomainLen, newMRVHeap, newAssignment)
+        # import pdb; pdb.set_trace()
+        newCspInstance = CSP(newBoard, newDomain, newDomainLen, newAssignment, newUnassignedDomainLen)
         
-        print("BBBBBBBBBBB")
-        print(newCspInstance.domainLen)
 
         forwardCheckResult = newCspInstance.forwardChecking(key)
 
@@ -110,12 +106,6 @@ class CSP(object):
     def forwardChecking(self, key):
         connectionHeap = self.getConnectionsHeap(key)
 
-        print("Connection Heap for ", key)
-        print(connectionHeap)
-        print("Domain before FC")
-        print(self.domain)
-        print("Domain Len before FC")
-        print(self.domainLen)
 
 
         while connectionHeap:
@@ -123,6 +113,9 @@ class CSP(object):
             
             if self.board[key] in self.domain[connectionKey]:
                 print(f"Forward Checking {key} -> {connectionKey} removing {self.board[key]}")
+                print("Before", connectionKey, self.domain[connectionKey], self.domainLen[connectionKey])
+                if connectionKey in self.unassignedDomainLen:
+                    self.unassignedDomainLen[connectionKey] -= 1
                 self.domainLen[connectionKey] -= 1
                 if self.domainLen[connectionKey] == 0:
                     return False
@@ -208,25 +201,45 @@ def backtracking(board):
     return retval
 
 def backtracking_recursive(csp):
+    # import pdb; pdb.set_trace()
     global cycleCounter
-    print(f"\n\nCurrent Board {cycleCounter}: ")
+    print(f"\n\n\nCurrent Board {cycleCounter}: ")
+
     cycleCounter += 1
-    print(csp.board)
+    # print(csp.board)
     if checkComplete(csp.assignment):
         return csp.board
     
     else:
-        while csp.MRVHeap:
-            domainLen, _, key = heapq.heappop(csp.MRVHeap)
+        # while csp.unassignedDomainLen:
+        print("Unassigned Domain Len", csp.unassignedDomainLen)
 
-            if key not in csp.assignment and csp.domainLen[key] == domainLen:
-                for value in csp.domain[key]:
-                    newCsp = csp.assignNode(key, value)
+        minLen = key = None
+        for _key, _domainLen in csp.domainLen.items():
+            if _key not in csp.assignment:
+                if minLen is None or _domainLen < minLen:
+                    minLen = _domainLen
+                    key = _key
+                
+        for value in csp.domain[key]:
+            print("===================================")
+            print(f"Selected Key: {key}")
+            print("csp.domain of key", key, csp.domain[key])
+            print(f"Selected value: {value}")
+            print("Old", csp.domain)
+            newCsp = csp.assignNode(key, value)
+            print("New", newCsp.domain if newCsp is not False else "No new CSP")
 
-                    if newCsp is not False:
-                        result = backtracking_recursive(newCsp)
-                        if result is not False:
-                            return result
+            if newCsp is False:
+                print("Backtracking from ", key, value)
+                return False
+            else:
+                print("Calling Recursive")
+                result = backtracking_recursive(newCsp)
+                if result is not False:
+                    return result
+            # else:
+            #     print("Skipping ", key, csp.domainLen[key], domainLen)
     return False
 
 def checkComplete(assignment):
@@ -247,8 +260,8 @@ if __name__ == '__main__':
                   for r in range(9) for c in range(9)}
 
         solved_board = backtracking(board)
-
         # Write board to file
+        print(board_to_string(solved_board))
         out_filename = 'output.txt'
         outfile = open(out_filename, "w")
         outfile.write(board_to_string(solved_board))

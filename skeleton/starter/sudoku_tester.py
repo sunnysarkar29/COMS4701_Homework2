@@ -52,6 +52,7 @@ def main():
         failures = []
         skips = []
         for puzzle_no in range(len(puzzles)):
+            print(test_no)
             puzzle = puzzles[puzzle_no]
 
             if len(puzzle) < 9:

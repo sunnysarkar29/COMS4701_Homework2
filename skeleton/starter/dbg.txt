@@ -1,0 +1,839 @@
+000100702030950000001002003590000301020000070703000098800200100000085060605009000
+Forward Checking A4 -> A1 removing 1
+Before A1 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> A2 removing 1
+Before A2 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> A3 removing 1
+Before A3 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> A5 removing 1
+Before A5 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> A6 removing 1
+Before A6 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> A8 removing 1
+Before A8 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> B6 removing 1
+Before B6 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> C4 removing 1
+Before C4 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> C5 removing 1
+Before C5 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> D4 removing 1
+Before D4 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> E4 removing 1
+Before E4 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> F4 removing 1
+Before F4 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> H4 removing 1
+Before H4 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A4 -> I4 removing 1
+Before I4 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A7 -> A1 removing 7
+Before A1 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking A7 -> A2 removing 7
+Before A2 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking A7 -> A3 removing 7
+Before A3 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking A7 -> A5 removing 7
+Before A5 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking A7 -> A6 removing 7
+Before A6 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking A7 -> A8 removing 7
+Before A8 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking A7 -> B7 removing 7
+Before B7 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A7 -> B8 removing 7
+Before B8 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A7 -> B9 removing 7
+Before B9 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A7 -> C7 removing 7
+Before C7 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A7 -> C8 removing 7
+Before C8 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A7 -> E7 removing 7
+Before E7 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A7 -> F7 removing 7
+Before F7 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A7 -> H7 removing 7
+Before H7 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A7 -> I7 removing 7
+Before I7 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A9 -> A1 removing 2
+Before A1 {2, 3, 4, 5, 6, 8, 9} 7
+Forward Checking A9 -> A2 removing 2
+Before A2 {2, 3, 4, 5, 6, 8, 9} 7
+Forward Checking A9 -> A3 removing 2
+Before A3 {2, 3, 4, 5, 6, 8, 9} 7
+Forward Checking A9 -> A5 removing 2
+Before A5 {2, 3, 4, 5, 6, 8, 9} 7
+Forward Checking A9 -> A6 removing 2
+Before A6 {2, 3, 4, 5, 6, 8, 9} 7
+Forward Checking A9 -> A8 removing 2
+Before A8 {2, 3, 4, 5, 6, 8, 9} 7
+Forward Checking A9 -> B7 removing 2
+Before B7 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking A9 -> B8 removing 2
+Before B8 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking A9 -> B9 removing 2
+Before B9 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking A9 -> C7 removing 2
+Before C7 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking A9 -> C8 removing 2
+Before C8 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking A9 -> E9 removing 2
+Before E9 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A9 -> G9 removing 2
+Before G9 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A9 -> H9 removing 2
+Before H9 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking A9 -> I9 removing 2
+Before I9 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B2 -> A1 removing 3
+Before A1 {3, 4, 5, 6, 8, 9} 6
+Forward Checking B2 -> A2 removing 3
+Before A2 {3, 4, 5, 6, 8, 9} 6
+Forward Checking B2 -> A3 removing 3
+Before A3 {3, 4, 5, 6, 8, 9} 6
+Forward Checking B2 -> B7 removing 3
+Before B7 {1, 3, 4, 5, 6, 8, 9} 7
+Forward Checking B2 -> B8 removing 3
+Before B8 {1, 3, 4, 5, 6, 8, 9} 7
+Forward Checking B2 -> B9 removing 3
+Before B9 {1, 3, 4, 5, 6, 8, 9} 7
+Forward Checking B2 -> B6 removing 3
+Before B6 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B2 -> B1 removing 3
+Before B1 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B2 -> B3 removing 3
+Before B3 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B2 -> C1 removing 3
+Before C1 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B2 -> C2 removing 3
+Before C2 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B2 -> F2 removing 3
+Before F2 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B2 -> G2 removing 3
+Before G2 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B2 -> H2 removing 3
+Before H2 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B2 -> I2 removing 3
+Before I2 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B4 -> A5 removing 9
+Before A5 {3, 4, 5, 6, 8, 9} 6
+Forward Checking B4 -> A6 removing 9
+Before A6 {3, 4, 5, 6, 8, 9} 6
+Forward Checking B4 -> B7 removing 9
+Before B7 {1, 4, 5, 6, 8, 9} 6
+Forward Checking B4 -> B8 removing 9
+Before B8 {1, 4, 5, 6, 8, 9} 6
+Forward Checking B4 -> B9 removing 9
+Before B9 {1, 4, 5, 6, 8, 9} 6
+Forward Checking B4 -> B6 removing 9
+Before B6 {2, 4, 5, 6, 7, 8, 9} 7
+Forward Checking B4 -> B1 removing 9
+Before B1 {1, 2, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B4 -> B3 removing 9
+Before B3 {1, 2, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B4 -> C4 removing 9
+Before C4 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B4 -> C5 removing 9
+Before C5 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B4 -> D4 removing 9
+Before D4 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B4 -> E4 removing 9
+Before E4 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B4 -> F4 removing 9
+Before F4 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B4 -> H4 removing 9
+Before H4 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B4 -> I4 removing 9
+Before I4 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking B5 -> A5 removing 5
+Before A5 {3, 4, 5, 6, 8} 5
+Forward Checking B5 -> A6 removing 5
+Before A6 {3, 4, 5, 6, 8} 5
+Forward Checking B5 -> B7 removing 5
+Before B7 {1, 4, 5, 6, 8} 5
+Forward Checking B5 -> B8 removing 5
+Before B8 {1, 4, 5, 6, 8} 5
+Forward Checking B5 -> B9 removing 5
+Before B9 {1, 4, 5, 6, 8} 5
+Forward Checking B5 -> B6 removing 5
+Before B6 {2, 4, 5, 6, 7, 8} 6
+Forward Checking B5 -> B1 removing 5
+Before B1 {1, 2, 4, 5, 6, 7, 8} 7
+Forward Checking B5 -> B3 removing 5
+Before B3 {1, 2, 4, 5, 6, 7, 8} 7
+Forward Checking B5 -> C4 removing 5
+Before C4 {2, 3, 4, 5, 6, 7, 8} 7
+Forward Checking B5 -> C5 removing 5
+Before C5 {2, 3, 4, 5, 6, 7, 8} 7
+Forward Checking B5 -> D5 removing 5
+Before D5 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B5 -> E5 removing 5
+Before E5 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B5 -> F5 removing 5
+Before F5 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B5 -> G5 removing 5
+Before G5 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking B5 -> I5 removing 5
+Before I5 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking C3 -> B1 removing 1
+Before B1 {1, 2, 4, 6, 7, 8} 6
+Forward Checking C3 -> B3 removing 1
+Before B3 {1, 2, 4, 6, 7, 8} 6
+Forward Checking C3 -> C7 removing 1
+Before C7 {1, 3, 4, 5, 6, 8, 9} 7
+Forward Checking C3 -> C8 removing 1
+Before C8 {1, 3, 4, 5, 6, 8, 9} 7
+Forward Checking C3 -> C1 removing 1
+Before C1 {1, 2, 4, 5, 6, 7, 8, 9} 8
+Forward Checking C3 -> C2 removing 1
+Before C2 {1, 2, 4, 5, 6, 7, 8, 9} 8
+Forward Checking C3 -> D3 removing 1
+Before D3 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking C3 -> E3 removing 1
+Before E3 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking C3 -> G3 removing 1
+Before G3 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking C3 -> H3 removing 1
+Before H3 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking C6 -> B6 removing 2
+Before B6 {2, 4, 6, 7, 8} 5
+Forward Checking C6 -> C4 removing 2
+Before C4 {2, 3, 4, 6, 7, 8} 6
+Forward Checking C6 -> C5 removing 2
+Before C5 {2, 3, 4, 6, 7, 8} 6
+Forward Checking C6 -> C1 removing 2
+Before C1 {2, 4, 5, 6, 7, 8, 9} 7
+Forward Checking C6 -> C2 removing 2
+Before C2 {2, 4, 5, 6, 7, 8, 9} 7
+Forward Checking C6 -> D6 removing 2
+Before D6 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking C6 -> E6 removing 2
+Before E6 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking C6 -> F6 removing 2
+Before F6 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking C6 -> G6 removing 2
+Before G6 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking C9 -> C4 removing 3
+Before C4 {3, 4, 6, 7, 8} 5
+Forward Checking C9 -> C5 removing 3
+Before C5 {3, 4, 6, 7, 8} 5
+Forward Checking C9 -> A8 removing 3
+Before A8 {3, 4, 5, 6, 8, 9} 6
+Forward Checking C9 -> C7 removing 3
+Before C7 {3, 4, 5, 6, 8, 9} 6
+Forward Checking C9 -> C8 removing 3
+Before C8 {3, 4, 5, 6, 8, 9} 6
+Forward Checking C9 -> E9 removing 3
+Before E9 {1, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking C9 -> G9 removing 3
+Before G9 {1, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking C9 -> H9 removing 3
+Before H9 {1, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking C9 -> I9 removing 3
+Before I9 {1, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking D1 -> A1 removing 5
+Before A1 {4, 5, 6, 8, 9} 5
+Forward Checking D1 -> C1 removing 5
+Before C1 {4, 5, 6, 7, 8, 9} 6
+Forward Checking D1 -> D4 removing 5
+Before D4 {2, 3, 4, 5, 6, 7, 8} 7
+Forward Checking D1 -> D3 removing 5
+Before D3 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking D1 -> D6 removing 5
+Before D6 {1, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking D1 -> E3 removing 5
+Before E3 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking D1 -> F2 removing 5
+Before F2 {1, 2, 4, 5, 6, 7, 8, 9} 8
+Forward Checking D1 -> D8 removing 5
+Before D8 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking D1 -> E1 removing 5
+Before E1 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking D1 -> H1 removing 5
+Before H1 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking D2 -> A2 removing 9
+Before A2 {4, 5, 6, 8, 9} 5
+Forward Checking D2 -> C2 removing 9
+Before C2 {4, 5, 6, 7, 8, 9} 6
+Forward Checking D2 -> D3 removing 9
+Before D3 {2, 3, 4, 6, 7, 8, 9} 7
+Forward Checking D2 -> D6 removing 9
+Before D6 {1, 3, 4, 6, 7, 8, 9} 7
+Forward Checking D2 -> E3 removing 9
+Before E3 {2, 3, 4, 6, 7, 8, 9} 7
+Forward Checking D2 -> F2 removing 9
+Before F2 {1, 2, 4, 6, 7, 8, 9} 7
+Forward Checking D2 -> D5 removing 9
+Before D5 {1, 2, 3, 4, 6, 7, 8, 9} 8
+Forward Checking D2 -> D8 removing 9
+Before D8 {1, 2, 3, 4, 6, 7, 8, 9} 8
+Forward Checking D2 -> E1 removing 9
+Before E1 {1, 2, 3, 4, 6, 7, 8, 9} 8
+Forward Checking D2 -> G2 removing 9
+Before G2 {1, 2, 4, 5, 6, 7, 8, 9} 8
+Forward Checking D2 -> H2 removing 9
+Before H2 {1, 2, 4, 5, 6, 7, 8, 9} 8
+Forward Checking D2 -> I2 removing 9
+Before I2 {1, 2, 4, 5, 6, 7, 8, 9} 8
+Forward Checking D7 -> D3 removing 3
+Before D3 {2, 3, 4, 6, 7, 8} 6
+Forward Checking D7 -> D4 removing 3
+Before D4 {2, 3, 4, 6, 7, 8} 6
+Forward Checking D7 -> D6 removing 3
+Before D6 {1, 3, 4, 6, 7, 8} 6
+Forward Checking D7 -> D5 removing 3
+Before D5 {1, 2, 3, 4, 6, 7, 8} 7
+Forward Checking D7 -> D8 removing 3
+Before D8 {1, 2, 3, 4, 6, 7, 8} 7
+Forward Checking D7 -> E7 removing 3
+Before E7 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking D7 -> F7 removing 3
+Before F7 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking D7 -> H7 removing 3
+Before H7 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking D7 -> I7 removing 3
+Before I7 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking D9 -> B9 removing 1
+Before B9 {1, 4, 6, 8} 4
+Forward Checking D9 -> D6 removing 1
+Before D6 {1, 4, 6, 7, 8} 5
+Forward Checking D9 -> D5 removing 1
+Before D5 {1, 2, 4, 6, 7, 8} 6
+Forward Checking D9 -> D8 removing 1
+Before D8 {1, 2, 4, 6, 7, 8} 6
+Forward Checking D9 -> E7 removing 1
+Before E7 {1, 2, 4, 5, 6, 8, 9} 7
+Forward Checking D9 -> E9 removing 1
+Before E9 {1, 4, 5, 6, 7, 8, 9} 7
+Forward Checking D9 -> F7 removing 1
+Before F7 {1, 2, 4, 5, 6, 8, 9} 7
+Forward Checking D9 -> G9 removing 1
+Before G9 {1, 4, 5, 6, 7, 8, 9} 7
+Forward Checking D9 -> H9 removing 1
+Before H9 {1, 4, 5, 6, 7, 8, 9} 7
+Forward Checking D9 -> I9 removing 1
+Before I9 {1, 4, 5, 6, 7, 8, 9} 7
+Forward Checking E2 -> D3 removing 2
+Before D3 {2, 4, 6, 7, 8} 5
+Forward Checking E2 -> E3 removing 2
+Before E3 {2, 3, 4, 6, 7, 8} 6
+Forward Checking E2 -> E7 removing 2
+Before E7 {2, 4, 5, 6, 8, 9} 6
+Forward Checking E2 -> F2 removing 2
+Before F2 {1, 2, 4, 6, 7, 8} 6
+Forward Checking E2 -> E1 removing 2
+Before E1 {1, 2, 3, 4, 6, 7, 8} 7
+Forward Checking E2 -> E4 removing 2
+Before E4 {2, 3, 4, 5, 6, 7, 8} 7
+Forward Checking E2 -> G2 removing 2
+Before G2 {1, 2, 4, 5, 6, 7, 8} 7
+Forward Checking E2 -> H2 removing 2
+Before H2 {1, 2, 4, 5, 6, 7, 8} 7
+Forward Checking E2 -> I2 removing 2
+Before I2 {1, 2, 4, 5, 6, 7, 8} 7
+Forward Checking E2 -> E5 removing 2
+Before E5 {1, 2, 3, 4, 6, 7, 8, 9} 8
+Forward Checking E8 -> D8 removing 7
+Before D8 {2, 4, 6, 7, 8} 5
+Forward Checking E8 -> E3 removing 7
+Before E3 {3, 4, 6, 7, 8} 5
+Forward Checking E8 -> E1 removing 7
+Before E1 {1, 3, 4, 6, 7, 8} 6
+Forward Checking E8 -> E4 removing 7
+Before E4 {3, 4, 5, 6, 7, 8} 6
+Forward Checking E8 -> E9 removing 7
+Before E9 {4, 5, 6, 7, 8, 9} 6
+Forward Checking E8 -> E5 removing 7
+Before E5 {1, 3, 4, 6, 7, 8, 9} 7
+Forward Checking E8 -> E6 removing 7
+Before E6 {1, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking E8 -> G8 removing 7
+Before G8 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking E8 -> I8 removing 7
+Before I8 {1, 2, 3, 4, 5, 6, 7, 8, 9} 9
+Forward Checking F1 -> D3 removing 7
+Before D3 {4, 6, 7, 8} 4
+Forward Checking F1 -> B1 removing 7
+Before B1 {2, 4, 6, 7, 8} 5
+Forward Checking F1 -> C1 removing 7
+Before C1 {4, 6, 7, 8, 9} 5
+Forward Checking F1 -> F2 removing 7
+Before F2 {1, 4, 6, 7, 8} 5
+Forward Checking F1 -> F4 removing 7
+Before F4 {2, 3, 4, 5, 6, 7, 8} 7
+Forward Checking F1 -> F5 removing 7
+Before F5 {1, 2, 3, 4, 6, 7, 8, 9} 8
+Forward Checking F1 -> F6 removing 7
+Before F6 {1, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking F1 -> H1 removing 7
+Before H1 {1, 2, 3, 4, 6, 7, 8, 9} 8
+Forward Checking F3 -> E3 removing 3
+Before E3 {3, 4, 6, 8} 4
+Forward Checking F3 -> E1 removing 3
+Before E1 {1, 3, 4, 6, 8} 5
+Forward Checking F3 -> F4 removing 3
+Before F4 {2, 3, 4, 5, 6, 8} 6
+Forward Checking F3 -> F5 removing 3
+Before F5 {1, 2, 3, 4, 6, 8, 9} 7
+Forward Checking F3 -> F6 removing 3
+Before F6 {1, 3, 4, 5, 6, 8, 9} 7
+Forward Checking F3 -> G3 removing 3
+Before G3 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking F3 -> H3 removing 3
+Before H3 {2, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking F8 -> A8 removing 9
+Before A8 {4, 5, 6, 8, 9} 5
+Forward Checking F8 -> C8 removing 9
+Before C8 {4, 5, 6, 8, 9} 5
+Forward Checking F8 -> E7 removing 9
+Before E7 {4, 5, 6, 8, 9} 5
+Forward Checking F8 -> E9 removing 9
+Before E9 {4, 5, 6, 8, 9} 5
+Forward Checking F8 -> F5 removing 9
+Before F5 {1, 2, 4, 6, 8, 9} 6
+Forward Checking F8 -> F6 removing 9
+Before F6 {1, 4, 5, 6, 8, 9} 6
+Forward Checking F8 -> F7 removing 9
+Before F7 {2, 4, 5, 6, 8, 9} 6
+Forward Checking F8 -> G8 removing 9
+Before G8 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking F8 -> I8 removing 9
+Before I8 {1, 2, 3, 4, 5, 6, 8, 9} 8
+Forward Checking F9 -> B9 removing 8
+Before B9 {4, 6, 8} 3
+Forward Checking F9 -> D8 removing 8
+Before D8 {2, 4, 6, 8} 4
+Forward Checking F9 -> E7 removing 8
+Before E7 {4, 5, 6, 8} 4
+Forward Checking F9 -> E9 removing 8
+Before E9 {4, 5, 6, 8} 4
+Forward Checking F9 -> F2 removing 8
+Before F2 {1, 4, 6, 8} 4
+Forward Checking F9 -> F4 removing 8
+Before F4 {2, 4, 5, 6, 8} 5
+Forward Checking F9 -> F5 removing 8
+Before F5 {1, 2, 4, 6, 8} 5
+Forward Checking F9 -> F6 removing 8
+Before F6 {1, 4, 5, 6, 8} 5
+Forward Checking F9 -> F7 removing 8
+Before F7 {2, 4, 5, 6, 8} 5
+Forward Checking F9 -> G9 removing 8
+Before G9 {4, 5, 6, 7, 8, 9} 6
+Forward Checking F9 -> H9 removing 8
+Before H9 {4, 5, 6, 7, 8, 9} 6
+Forward Checking F9 -> I9 removing 8
+Before I9 {4, 5, 6, 7, 8, 9} 6
+Forward Checking G1 -> A1 removing 8
+Before A1 {4, 6, 8, 9} 4
+Forward Checking G1 -> B1 removing 8
+Before B1 {2, 4, 6, 8} 4
+Forward Checking G1 -> C1 removing 8
+Before C1 {4, 6, 8, 9} 4
+Forward Checking G1 -> E1 removing 8
+Before E1 {1, 4, 6, 8} 4
+Forward Checking G1 -> G2 removing 8
+Before G2 {1, 4, 5, 6, 7, 8} 6
+Forward Checking G1 -> H2 removing 8
+Before H2 {1, 4, 5, 6, 7, 8} 6
+Forward Checking G1 -> I2 removing 8
+Before I2 {1, 4, 5, 6, 7, 8} 6
+Forward Checking G1 -> G3 removing 8
+Before G3 {2, 4, 5, 6, 7, 8, 9} 7
+Forward Checking G1 -> G8 removing 8
+Before G8 {1, 2, 3, 4, 5, 6, 8} 7
+Forward Checking G1 -> H1 removing 8
+Before H1 {1, 2, 3, 4, 6, 8, 9} 7
+Forward Checking G1 -> H3 removing 8
+Before H3 {2, 4, 5, 6, 7, 8, 9} 7
+Forward Checking G1 -> G5 removing 8
+Before G5 {1, 2, 3, 4, 6, 7, 8, 9} 8
+Forward Checking G1 -> G6 removing 8
+Before G6 {1, 3, 4, 5, 6, 7, 8, 9} 8
+Forward Checking G4 -> F4 removing 2
+Before F4 {2, 4, 5, 6} 4
+Forward Checking G4 -> D4 removing 2
+Before D4 {2, 4, 6, 7, 8} 5
+Forward Checking G4 -> G3 removing 2
+Before G3 {2, 4, 5, 6, 7, 9} 6
+Forward Checking G4 -> G8 removing 2
+Before G8 {1, 2, 3, 4, 5, 6} 6
+Forward Checking G4 -> G5 removing 2
+Before G5 {1, 2, 3, 4, 6, 7, 9} 7
+Forward Checking G4 -> H4 removing 2
+Before H4 {2, 3, 4, 5, 6, 7, 8} 7
+Forward Checking G4 -> I4 removing 2
+Before I4 {2, 3, 4, 5, 6, 7, 8} 7
+Forward Checking G4 -> I5 removing 2
+Before I5 {1, 2, 3, 4, 6, 7, 8, 9} 8
+Forward Checking G7 -> B7 removing 1
+Before B7 {1, 4, 6, 8} 4
+Forward Checking G7 -> G2 removing 1
+Before G2 {1, 4, 5, 6, 7} 5
+Forward Checking G7 -> G8 removing 1
+Before G8 {1, 3, 4, 5, 6} 5
+Forward Checking G7 -> G5 removing 1
+Before G5 {1, 3, 4, 6, 7, 9} 6
+Forward Checking G7 -> G6 removing 1
+Before G6 {1, 3, 4, 5, 6, 7, 9} 7
+Forward Checking G7 -> H7 removing 1
+Before H7 {1, 2, 4, 5, 6, 8, 9} 7
+Forward Checking G7 -> I7 removing 1
+Before I7 {1, 2, 4, 5, 6, 8, 9} 7
+Forward Checking G7 -> I8 removing 1
+Before I8 {1, 2, 3, 4, 5, 6, 8} 7
+Forward Checking H5 -> A5 removing 8
+Before A5 {3, 4, 6, 8} 4
+Forward Checking H5 -> C5 removing 8
+Before C5 {4, 6, 7, 8} 4
+Forward Checking H5 -> D5 removing 8
+Before D5 {2, 4, 6, 7, 8} 5
+Forward Checking H5 -> E5 removing 8
+Before E5 {1, 3, 4, 6, 8, 9} 6
+Forward Checking H5 -> H4 removing 8
+Before H4 {3, 4, 5, 6, 7, 8} 6
+Forward Checking H5 -> H7 removing 8
+Before H7 {2, 4, 5, 6, 8, 9} 6
+Forward Checking H5 -> I4 removing 8
+Before I4 {3, 4, 5, 6, 7, 8} 6
+Forward Checking H5 -> I5 removing 8
+Before I5 {1, 3, 4, 6, 7, 8, 9} 7
+Forward Checking H6 -> F6 removing 5
+Before F6 {1, 4, 5, 6} 4
+Forward Checking H6 -> H2 removing 5
+Before H2 {1, 4, 5, 6, 7} 5
+Forward Checking H6 -> H4 removing 5
+Before H4 {3, 4, 5, 6, 7} 5
+Forward Checking H6 -> H7 removing 5
+Before H7 {2, 4, 5, 6, 9} 5
+Forward Checking H6 -> H9 removing 5
+Before H9 {4, 5, 6, 7, 9} 5
+Forward Checking H6 -> I4 removing 5
+Before I4 {3, 4, 5, 6, 7} 5
+Forward Checking H6 -> G6 removing 5
+Before G6 {3, 4, 5, 6, 7, 9} 6
+Forward Checking H6 -> H3 removing 5
+Before H3 {2, 4, 5, 6, 7, 9} 6
+Forward Checking H6 -> E6 removing 5
+Before E6 {1, 3, 4, 5, 6, 8, 9} 7
+Forward Checking H8 -> D8 removing 6
+Before D8 {2, 4, 6} 3
+Forward Checking H8 -> A8 removing 6
+Before A8 {4, 5, 6, 8} 4
+Forward Checking H8 -> B8 removing 6
+Before B8 {1, 4, 6, 8} 4
+Forward Checking H8 -> C8 removing 6
+Before C8 {4, 5, 6, 8} 4
+Forward Checking H8 -> G8 removing 6
+Before G8 {3, 4, 5, 6} 4
+Forward Checking H8 -> H2 removing 6
+Before H2 {1, 4, 6, 7} 4
+Forward Checking H8 -> H4 removing 6
+Before H4 {3, 4, 6, 7} 4
+Forward Checking H8 -> H7 removing 6
+Before H7 {2, 4, 6, 9} 4
+Forward Checking H8 -> H9 removing 6
+Before H9 {4, 6, 7, 9} 4
+Forward Checking H8 -> G9 removing 6
+Before G9 {4, 5, 6, 7, 9} 5
+Forward Checking H8 -> H3 removing 6
+Before H3 {2, 4, 6, 7, 9} 5
+Forward Checking H8 -> I9 removing 6
+Before I9 {4, 5, 6, 7, 9} 5
+Forward Checking H8 -> H1 removing 6
+Before H1 {1, 2, 3, 4, 6, 9} 6
+Forward Checking H8 -> I7 removing 6
+Before I7 {2, 4, 5, 6, 8, 9} 6
+Forward Checking H8 -> I8 removing 6
+Before I8 {2, 3, 4, 5, 6, 8} 6
+Forward Checking I1 -> A1 removing 6
+Before A1 {4, 6, 9} 3
+Forward Checking I1 -> B1 removing 6
+Before B1 {2, 4, 6} 3
+Forward Checking I1 -> C1 removing 6
+Before C1 {4, 6, 9} 3
+Forward Checking I1 -> E1 removing 6
+Before E1 {1, 4, 6} 3
+Forward Checking I1 -> G2 removing 6
+Before G2 {4, 5, 6, 7} 4
+Forward Checking I1 -> I4 removing 6
+Before I4 {3, 4, 6, 7} 4
+Forward Checking I1 -> G3 removing 6
+Before G3 {4, 5, 6, 7, 9} 5
+Forward Checking I1 -> I2 removing 6
+Before I2 {1, 4, 5, 6, 7} 5
+Forward Checking I1 -> I5 removing 6
+Before I5 {1, 3, 4, 6, 7, 9} 6
+Forward Checking I3 -> G2 removing 5
+Before G2 {4, 5, 7} 3
+Forward Checking I3 -> G3 removing 5
+Before G3 {4, 5, 7, 9} 4
+Forward Checking I3 -> I2 removing 5
+Before I2 {1, 4, 5, 7} 4
+Forward Checking I3 -> I9 removing 5
+Before I9 {4, 5, 7, 9} 4
+Forward Checking I3 -> A3 removing 5
+Before A3 {4, 5, 6, 8, 9} 5
+Forward Checking I3 -> I7 removing 5
+Before I7 {2, 4, 5, 8, 9} 5
+Forward Checking I3 -> I8 removing 5
+Before I8 {2, 3, 4, 5, 8} 5
+Forward Checking I6 -> I9 removing 9
+Before I9 {4, 7, 9} 3
+Forward Checking I6 -> I7 removing 9
+Before I7 {2, 4, 8, 9} 4
+Forward Checking I6 -> G5 removing 9
+Before G5 {3, 4, 6, 7, 9} 5
+Forward Checking I6 -> G6 removing 9
+Before G6 {3, 4, 6, 7, 9} 5
+Forward Checking I6 -> I5 removing 9
+Before I5 {1, 3, 4, 7, 9} 5
+Forward Checking I6 -> E6 removing 9
+Before E6 {1, 3, 4, 6, 8, 9} 6
+
+
+
+Current Board 1: 
+Unassigned Domain Len {'A1': 2, 'A2': 4, 'A3': 4, 'A5': 3, 'A6': 4, 'A8': 3, 'B1': 2, 'B3': 5, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C1': 2, 'C2': 5, 'C4': 4, 'C5': 3, 'C7': 5, 'C8': 3, 'D3': 3, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E1': 2, 'E3': 3, 'E4': 5, 'E5': 5, 'E6': 5, 'E7': 3, 'E9': 3, 'F2': 3, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H1': 5, 'H2': 3, 'H3': 4, 'H4': 3, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: A1
+csp.domain of key A1 {4, 9}
+Selected value: 4
+Old {'A1': {4, 9}, 'A2': {4, 5, 6, 8}, 'A3': {4, 6, 8, 9}, 'A4': {1}, 'A5': {3, 4, 6}, 'A6': {3, 4, 6, 8}, 'A7': {7}, 'A8': {4, 5, 8}, 'A9': {2}, 'B1': {2, 4}, 'B2': {3}, 'B3': {2, 4, 6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {4, 9}, 'C2': {4, 5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8, 9}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1, 4}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {1, 3, 4, 6, 9}, 'E6': {1, 3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {1, 4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {1, 2, 3, 4, 9}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {3, 4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking A1 -> B1 removing 4
+Before B1 {2, 4} 2
+Forward Checking A1 -> C1 removing 4
+Before C1 {4, 9} 2
+Forward Checking A1 -> E1 removing 4
+Before E1 {1, 4} 2
+Forward Checking A1 -> A5 removing 4
+Before A5 {3, 4, 6} 3
+Forward Checking A1 -> A8 removing 4
+Before A8 {4, 5, 8} 3
+Forward Checking A1 -> A2 removing 4
+Before A2 {4, 5, 6, 8} 4
+Forward Checking A1 -> A3 removing 4
+Before A3 {4, 6, 8, 9} 4
+Forward Checking A1 -> A6 removing 4
+Before A6 {3, 4, 6, 8} 4
+Forward Checking A1 -> B3 removing 4
+Before B3 {2, 4, 6, 7, 8} 5
+Forward Checking A1 -> C2 removing 4
+Before C2 {4, 5, 6, 7, 8} 5
+Forward Checking A1 -> H1 removing 4
+Before H1 {1, 2, 3, 4, 9} 5
+New {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8, 9}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {2, 6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8, 9}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {1, 3, 4, 6, 9}, 'E6': {1, 3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {1, 4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {1, 2, 3, 9}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {3, 4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 2: 
+Unassigned Domain Len {'A2': 3, 'A3': 3, 'A5': 2, 'A6': 3, 'A8': 2, 'B1': 1, 'B3': 4, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C1': 1, 'C2': 4, 'C4': 4, 'C5': 3, 'C7': 5, 'C8': 3, 'D3': 3, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E1': 1, 'E3': 3, 'E4': 5, 'E5': 5, 'E6': 5, 'E7': 3, 'E9': 3, 'F2': 3, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H1': 4, 'H2': 3, 'H3': 4, 'H4': 3, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: B1
+csp.domain of key B1 {2}
+Selected value: 2
+Old {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8, 9}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {2, 6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8, 9}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {1, 3, 4, 6, 9}, 'E6': {1, 3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {1, 4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {1, 2, 3, 9}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {3, 4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking B1 -> B3 removing 2
+Before B3 {2, 6, 7, 8} 4
+Forward Checking B1 -> H1 removing 2
+Before H1 {1, 2, 3, 9} 4
+New {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8, 9}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8, 9}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {1, 3, 4, 6, 9}, 'E6': {1, 3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {1, 4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {1, 3, 9}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {3, 4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 3: 
+Unassigned Domain Len {'A2': 3, 'A3': 3, 'A5': 2, 'A6': 3, 'A8': 2, 'B3': 3, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C1': 1, 'C2': 4, 'C4': 4, 'C5': 3, 'C7': 5, 'C8': 3, 'D3': 3, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E1': 1, 'E3': 3, 'E4': 5, 'E5': 5, 'E6': 5, 'E7': 3, 'E9': 3, 'F2': 3, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H1': 3, 'H2': 3, 'H3': 4, 'H4': 3, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: C1
+csp.domain of key C1 {9}
+Selected value: 9
+Old {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8, 9}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8, 9}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {1, 3, 4, 6, 9}, 'E6': {1, 3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {1, 4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {1, 3, 9}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {3, 4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking C1 -> A3 removing 9
+Before A3 {6, 8, 9} 3
+Forward Checking C1 -> H1 removing 9
+Before H1 {1, 3, 9} 3
+Forward Checking C1 -> C7 removing 9
+Before C7 {4, 5, 6, 8, 9} 5
+New {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {1, 3, 4, 6, 9}, 'E6': {1, 3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {1, 4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {1, 3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {3, 4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 4: 
+Unassigned Domain Len {'A2': 3, 'A3': 2, 'A5': 2, 'A6': 3, 'A8': 2, 'B3': 3, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C2': 4, 'C4': 4, 'C5': 3, 'C7': 4, 'C8': 3, 'D3': 3, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E1': 1, 'E3': 3, 'E4': 5, 'E5': 5, 'E6': 5, 'E7': 3, 'E9': 3, 'F2': 3, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H1': 2, 'H2': 3, 'H3': 4, 'H4': 3, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: E1
+csp.domain of key E1 {1}
+Selected value: 1
+Old {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {1, 3, 4, 6, 9}, 'E6': {1, 3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {1, 4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {1, 3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {3, 4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking E1 -> H1 removing 1
+Before H1 {1, 3} 2
+Forward Checking E1 -> F2 removing 1
+Before F2 {1, 4, 6} 3
+Forward Checking E1 -> E5 removing 1
+Before E5 {1, 3, 4, 6, 9} 5
+Forward Checking E1 -> E6 removing 1
+Before E6 {1, 3, 4, 6, 8} 5
+New {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {3, 4, 6, 9}, 'E6': {3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {3, 4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 5: 
+Unassigned Domain Len {'A2': 3, 'A3': 2, 'A5': 2, 'A6': 3, 'A8': 2, 'B3': 3, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C2': 4, 'C4': 4, 'C5': 3, 'C7': 4, 'C8': 3, 'D3': 3, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E3': 3, 'E4': 5, 'E5': 4, 'E6': 4, 'E7': 3, 'E9': 3, 'F2': 2, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H1': 1, 'H2': 3, 'H3': 4, 'H4': 3, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: H1
+csp.domain of key H1 {3}
+Selected value: 3
+Old {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {3, 4, 6, 9}, 'E6': {3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {3, 4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking H1 -> H4 removing 3
+Before H4 {3, 4, 7} 3
+New {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {3, 4, 6, 9}, 'E6': {3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 6: 
+Unassigned Domain Len {'A2': 3, 'A3': 2, 'A5': 2, 'A6': 3, 'A8': 2, 'B3': 3, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C2': 4, 'C4': 4, 'C5': 3, 'C7': 4, 'C8': 3, 'D3': 3, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E3': 3, 'E4': 5, 'E5': 4, 'E6': 4, 'E7': 3, 'E9': 3, 'F2': 2, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H2': 3, 'H3': 4, 'H4': 2, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: A3
+csp.domain of key A3 {6, 8}
+Selected value: 6
+Old {'A1': {4}, 'A2': {5, 6, 8}, 'A3': {6, 8}, 'A4': {1}, 'A5': {3, 6}, 'A6': {3, 6, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {6, 7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 6, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 6, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 6, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {3, 4, 6, 9}, 'E6': {3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking A3 -> A5 removing 6
+Before A5 {3, 6} 2
+Forward Checking A3 -> A2 removing 6
+Before A2 {5, 6, 8} 3
+Forward Checking A3 -> A6 removing 6
+Before A6 {3, 6, 8} 3
+Forward Checking A3 -> B3 removing 6
+Before B3 {6, 7, 8} 3
+Forward Checking A3 -> D3 removing 6
+Before D3 {4, 6, 8} 3
+Forward Checking A3 -> E3 removing 6
+Before E3 {4, 6, 8} 3
+Forward Checking A3 -> C2 removing 6
+Before C2 {5, 6, 7, 8} 4
+New {'A1': {4}, 'A2': {5, 8}, 'A3': {6}, 'A4': {1}, 'A5': {3}, 'A6': {3, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {3, 4, 6, 9}, 'E6': {3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 7: 
+Unassigned Domain Len {'A2': 2, 'A5': 1, 'A6': 2, 'A8': 2, 'B3': 2, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C2': 3, 'C4': 4, 'C5': 3, 'C7': 4, 'C8': 3, 'D3': 2, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E3': 2, 'E4': 5, 'E5': 4, 'E6': 4, 'E7': 3, 'E9': 3, 'F2': 2, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H2': 3, 'H3': 4, 'H4': 2, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: A5
+csp.domain of key A5 {3}
+Selected value: 3
+Old {'A1': {4}, 'A2': {5, 8}, 'A3': {6}, 'A4': {1}, 'A5': {3}, 'A6': {3, 8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {3, 4, 6, 9}, 'E6': {3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {3, 4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 3, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking A5 -> A6 removing 3
+Before A6 {3, 8} 2
+Forward Checking A5 -> E5 removing 3
+Before E5 {3, 4, 6, 9} 4
+Forward Checking A5 -> G5 removing 3
+Before G5 {3, 4, 6, 7} 4
+Forward Checking A5 -> I5 removing 3
+Before I5 {1, 3, 4, 7} 4
+New {'A1': {4}, 'A2': {5, 8}, 'A3': {6}, 'A4': {1}, 'A5': {3}, 'A6': {8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 8: 
+Unassigned Domain Len {'A2': 2, 'A6': 1, 'A8': 2, 'B3': 2, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C2': 3, 'C4': 4, 'C5': 3, 'C7': 4, 'C8': 3, 'D3': 2, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E3': 2, 'E4': 5, 'E5': 3, 'E6': 4, 'E7': 3, 'E9': 3, 'F2': 2, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 3, 'G6': 4, 'G8': 3, 'G9': 4, 'H2': 3, 'H3': 4, 'H4': 2, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 3, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: A6
+csp.domain of key A6 {8}
+Selected value: 8
+Old {'A1': {4}, 'A2': {5, 8}, 'A3': {6}, 'A4': {1}, 'A5': {3}, 'A6': {8}, 'A7': {7}, 'A8': {5, 8}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7, 8}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7, 8}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7, 8}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6, 8}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking A6 -> A2 removing 8
+Before A2 {5, 8} 2
+Forward Checking A6 -> A8 removing 8
+Before A8 {5, 8} 2
+Forward Checking A6 -> B6 removing 8
+Before B6 {4, 6, 7, 8} 4
+Forward Checking A6 -> C4 removing 8
+Before C4 {4, 6, 7, 8} 4
+Forward Checking A6 -> D6 removing 8
+Before D6 {4, 6, 7, 8} 4
+Forward Checking A6 -> E6 removing 8
+Before E6 {3, 4, 6, 8} 4
+New {'A1': {4}, 'A2': {5}, 'A3': {6}, 'A4': {1}, 'A5': {3}, 'A6': {8}, 'A7': {7}, 'A8': {5}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 9: 
+Unassigned Domain Len {'A2': 1, 'A8': 1, 'B3': 2, 'B6': 3, 'B7': 3, 'B8': 3, 'B9': 2, 'C2': 3, 'C4': 3, 'C5': 3, 'C7': 4, 'C8': 3, 'D3': 2, 'D4': 4, 'D5': 4, 'D6': 3, 'D8': 2, 'E3': 2, 'E4': 5, 'E5': 3, 'E6': 3, 'E7': 3, 'E9': 3, 'F2': 2, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 3, 'G6': 4, 'G8': 3, 'G9': 4, 'H2': 3, 'H3': 4, 'H4': 2, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 3, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: A2
+csp.domain of key A2 {5}
+Selected value: 5
+Old {'A1': {4}, 'A2': {5}, 'A3': {6}, 'A4': {1}, 'A5': {3}, 'A6': {8}, 'A7': {7}, 'A8': {5}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking A2 -> A8 removing 5
+Before A8 {5} 1
+New No new CSP
+Backtracking from  A2 5
+===================================
+Selected Key: A3
+csp.domain of key A3 {6, 8}
+Selected value: 8
+Old {'A1': {4}, 'A2': {5}, 'A3': {6, 8}, 'A4': {1}, 'A5': {3}, 'A6': {8}, 'A7': {7}, 'A8': {5}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7, 8}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7, 8}, 'C3': {1}, 'C4': {4, 6, 7}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4, 8}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4, 8}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking A3 -> A6 removing 8
+Before A6 {8} 3
+Forward Checking A3 -> B3 removing 8
+Before B3 {7, 8} 3
+Forward Checking A3 -> D3 removing 8
+Before D3 {4, 8} 3
+Forward Checking A3 -> E3 removing 8
+Before E3 {4, 8} 3
+Forward Checking A3 -> C2 removing 8
+Before C2 {5, 7, 8} 4
+New {'A1': {4}, 'A2': {5}, 'A3': {8}, 'A4': {1}, 'A5': {3}, 'A6': set(), 'A7': {7}, 'A8': {5}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7}, 'C3': {1}, 'C4': {4, 6, 7}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 10: 
+Unassigned Domain Len {'A2': 3, 'A5': 2, 'A6': 2, 'A8': 2, 'B3': 2, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C2': 3, 'C4': 4, 'C5': 3, 'C7': 4, 'C8': 3, 'D3': 2, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E3': 2, 'E4': 5, 'E5': 4, 'E6': 4, 'E7': 3, 'E9': 3, 'F2': 2, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H2': 3, 'H3': 4, 'H4': 2, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: A5
+csp.domain of key A5 {3}
+Selected value: 3
+Old {'A1': {4}, 'A2': {5}, 'A3': {8}, 'A4': {1}, 'A5': {3}, 'A6': set(), 'A7': {7}, 'A8': {5}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7}, 'C3': {1}, 'C4': {4, 6, 7}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+New {'A1': {4}, 'A2': {5}, 'A3': {8}, 'A4': {1}, 'A5': {3}, 'A6': set(), 'A7': {7}, 'A8': {5}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7}, 'C3': {1}, 'C4': {4, 6, 7}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 11: 
+Unassigned Domain Len {'A2': 3, 'A6': 2, 'A8': 2, 'B3': 2, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C2': 3, 'C4': 4, 'C5': 3, 'C7': 4, 'C8': 3, 'D3': 2, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E3': 2, 'E4': 5, 'E5': 4, 'E6': 4, 'E7': 3, 'E9': 3, 'F2': 2, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H2': 3, 'H3': 4, 'H4': 2, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
+===================================
+Selected Key: A1
+csp.domain of key A1 {4, 9}
+Selected value: 9
+Old {'A1': {4, 9}, 'A2': {5}, 'A3': {6, 8}, 'A4': {1}, 'A5': {3}, 'A6': set(), 'A7': {7}, 'A8': {5}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': {9}, 'C2': {5, 7}, 'C3': {1}, 'C4': {4, 6, 7}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Using provided domain, domainLen, MRVHeap, assignment
+Forward Checking A1 -> C1 removing 9
+Before C1 {9} 2
+New {'A1': {9}, 'A2': {5}, 'A3': {6, 8}, 'A4': {1}, 'A5': {3}, 'A6': set(), 'A7': {7}, 'A8': {5}, 'A9': {2}, 'B1': {2}, 'B2': {3}, 'B3': {7}, 'B4': {9}, 'B5': {5}, 'B6': {4, 6, 7}, 'B7': {4, 6, 8}, 'B8': {1, 4, 8}, 'B9': {4, 6}, 'C1': set(), 'C2': {5, 7}, 'C3': {1}, 'C4': {4, 6, 7}, 'C5': {4, 6, 7}, 'C6': {2}, 'C7': {4, 5, 6, 8}, 'C8': {4, 5, 8}, 'C9': {3}, 'D1': {5}, 'D2': {9}, 'D3': {4}, 'D4': {4, 6, 7, 8}, 'D5': {2, 4, 6, 7}, 'D6': {4, 6, 7}, 'D7': {3}, 'D8': {2, 4}, 'D9': {1}, 'E1': {1}, 'E2': {2}, 'E3': {4}, 'E4': {3, 4, 5, 6, 8}, 'E5': {4, 6, 9}, 'E6': {3, 4, 6}, 'E7': {4, 5, 6}, 'E8': {7}, 'E9': {4, 5, 6}, 'F1': {7}, 'F2': {4, 6}, 'F3': {3}, 'F4': {4, 5, 6}, 'F5': {1, 2, 4, 6}, 'F6': {1, 4, 6}, 'F7': {2, 4, 5, 6}, 'F8': {9}, 'F9': {8}, 'G1': {8}, 'G2': {4, 7}, 'G3': {4, 7, 9}, 'G4': {2}, 'G5': {4, 6, 7}, 'G6': {3, 4, 6, 7}, 'G7': {1}, 'G8': {3, 4, 5}, 'G9': {4, 5, 7, 9}, 'H1': {3}, 'H2': {1, 4, 7}, 'H3': {2, 4, 7, 9}, 'H4': {4, 7}, 'H5': {8}, 'H6': {5}, 'H7': {2, 4, 9}, 'H8': {6}, 'H9': {4, 7, 9}, 'I1': {6}, 'I2': {1, 4, 7}, 'I3': {5}, 'I4': {3, 4, 7}, 'I5': {1, 4, 7}, 'I6': {9}, 'I7': {2, 4, 8}, 'I8': {2, 3, 4, 8}, 'I9': {4, 7}}
+Calling Recursive
+
+
+
+Current Board 12: 
+Unassigned Domain Len {'A2': 4, 'A3': 4, 'A5': 3, 'A6': 4, 'A8': 3, 'B1': 2, 'B3': 5, 'B6': 4, 'B7': 3, 'B8': 3, 'B9': 2, 'C1': 1, 'C2': 5, 'C4': 4, 'C5': 3, 'C7': 5, 'C8': 3, 'D3': 3, 'D4': 4, 'D5': 4, 'D6': 4, 'D8': 2, 'E1': 2, 'E3': 3, 'E4': 5, 'E5': 5, 'E6': 5, 'E7': 3, 'E9': 3, 'F2': 3, 'F4': 3, 'F5': 4, 'F6': 3, 'F7': 4, 'G2': 2, 'G3': 3, 'G5': 4, 'G6': 4, 'G8': 3, 'G9': 4, 'H1': 5, 'H2': 3, 'H3': 4, 'H4': 3, 'H7': 3, 'H9': 3, 'I2': 3, 'I4': 3, 'I5': 4, 'I7': 3, 'I8': 4, 'I9': 2}
